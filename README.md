@@ -26,7 +26,7 @@ Usage
 
 1. Import the library into your project.
   * Grab via maven
-  
+
     ```xml
     <dependency>
       <groupId>com.github.alamkanak</groupId>
@@ -36,7 +36,7 @@ Usage
     </dependency>
     ```
   * Grab via gradle
-  
+
     ```groovy
     compile 'com.github.alamkanak:android-week-view:1.2.6'
     ```
@@ -48,7 +48,7 @@ Usage
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:eventTextColor="@android:color/white"
-            app:textSize="12sp"
+            app:wvTextSize="12sp"
             app:hourHeight="60dp"
             app:headerColumnPadding="8dp"
             app:headerColumnTextColor="#8f000000"
@@ -115,7 +115,7 @@ You can customize the look of the `WeekView` in xml. Use the following attribute
 - `hourSeparatorHeight`
 - `noOfVisibleDays`
 - `overlappingEventGap`
-- `textSize`
+- `wvTextSize`
 - `todayBackgroundColor`
 - `todayHeaderTextColor`
 - `showDistinctPastFutureColor`
